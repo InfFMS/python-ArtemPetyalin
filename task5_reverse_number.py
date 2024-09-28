@@ -3,3 +3,8 @@
 # Пример:
 # Ввод: 123
 # Вывод: 321
+a = int(input())
+c = 0
+for i in range(len(str(a))):
+    c += int(str(a)[i]) * 10 ** i
+print (c)
